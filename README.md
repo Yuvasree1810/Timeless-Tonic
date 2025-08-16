@@ -1,4 +1,4 @@
-# NutriMed Bot RAG 🤖
+# Timeless-Tonic - Bot RAG 🤖
 
 A comprehensive medical chatbot enhanced with **Retrieval-Augmented Generation (RAG)** for intelligent document-based responses.
 
@@ -170,4 +170,5 @@ Feel free to contribute improvements:
 - Additional medical knowledge sources
 
 ## 📄 License
+
 This project is for educational and research purposes. Please ensure compliance with medical data regulations in your jurisdiction. 
