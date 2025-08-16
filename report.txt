@@ -1,0 +1,69 @@
+NutriMed Bot - Project Report
+===========================
+
+Project Overview
+----------------
+NutriMed Bot is an AI-powered medical assistant designed to help users with medical queries, document analysis, and nutrition advice. It leverages advanced language models and retrieval-augmented generation (RAG) to provide accurate, context-aware responses. The system supports document uploads (PDF, DOCX, TXT), semantic search, and interactive chat.
+
+Key Features
+------------
+- **AI Chatbot:** Answers medical, nutrition, and wellness questions using state-of-the-art language models.
+- **Document Upload & Analysis:** Users can upload medical documents for automatic summarization and semantic search.
+- **Semantic Search:** Uses vector embeddings to find relevant information from uploaded documents.
+- **Multi-model Support:** Integrates with models like Llama 3, Mistral, and others via Ollama.
+- **User-friendly Frontend:** Clean, interactive web interface for chat and document management.
+- **CORS-enabled API:** Allows frontend-backend communication during local development.
+
+Architecture
+------------
+- **Frontend:**
+  - HTML, CSS, JavaScript (see `frontend/index.html`, `script.js`, `style.css`)
+  - Handles user interaction, file uploads, and displays chat responses.
+- **Backend:**
+  - FastAPI (Python) (see `main.py`)
+  - Exposes REST API endpoints for chat, document upload, and management.
+  - Integrates with language models and vector database (ChromaDB).
+- **Vector Database:**
+  - ChromaDB for storing and searching document embeddings.
+- **Model Integration:**
+  - Uses Ollama and Groq APIs for LLM inference.
+
+Main API Endpoints
+------------------
+- `POST /upload` — Upload a document for analysis and storage.
+- `POST /chat` — Send a chat message and receive a model-generated response.
+- `GET /documents` — List all uploaded documents.
+- `DELETE /documents/{doc_id}` — Delete a specific document.
+- `GET /` — Health check endpoint.
+
+Technologies Used
+-----------------
+- **Backend:** Python, FastAPI, Uvicorn, ChromaDB, Sentence Transformers, Ollama, Groq
+- **Frontend:** HTML, CSS, JavaScript
+- **Other:** PyMuPDF (fitz), python-docx, numpy
+
+Setup Instructions
+------------------
+1. **Install Python dependencies:**
+   ```
+   pip install -r requirements.txt
+   ```
+2. **Start the backend server:**
+   ```
+   python main.py
+   ```
+   The API will be available at http://localhost:8000
+3. **Open the frontend:**
+   - Open `frontend/index.html` in your browser, or serve it using a simple HTTP server.
+   - Ensure the backend is running for full functionality.
+
+Notes
+-----
+- The backend must be running for the frontend to function correctly.
+- All API endpoints are CORS-enabled for local development.
+- For model inference, ensure Ollama and/or Groq API keys are configured as needed.
+
+Authors & Credits
+-----------------
+- [Your Name]
+- Powered by FastAPI, Ollama, Groq, and ChromaDB. 

@@ -1,0 +1,13 @@
+groq
+fastapi
+pydantic
+uvicorn
+pillow
+sentence-transformers
+chromadb
+python-multipart
+numpy
+scikit-learn
+PyPDF2
+python-docx
+requests 

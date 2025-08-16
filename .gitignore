@@ -1,0 +1,39 @@
+echo "# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+api/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Large files
+*.pdf
+*.zip
+*.rar
+
+# ChromaDB
+chroma_db/" > .gitignore

@@ -1,0 +1,50 @@
+PATIENT MEDICAL REPORT
+
+Patient Name: John Smith
+Date of Birth: 1985-03-15
+Date of Report: 2024-01-15
+Doctor: Dr. Sarah Johnson
+
+DIAGNOSIS:
+- Type 2 Diabetes Mellitus
+- Hypertension (Blood Pressure: 145/95 mmHg)
+- Mild Diabetic Retinopathy
+
+SYMPTOMS REPORTED:
+- Frequent urination
+- Increased thirst
+- Fatigue and weakness
+- Blurred vision
+- Slow-healing wounds
+
+LABORATORY RESULTS:
+- Fasting Blood Glucose: 180 mg/dL (Normal: 70-100)
+- HbA1c: 8.2% (Normal: <5.7%)
+- Cholesterol: 220 mg/dL
+- Triglycerides: 180 mg/dL
+
+MEDICATIONS PRESCRIBED:
+1. Metformin 500mg twice daily
+2. Lisinopril 10mg once daily
+3. Atorvastatin 20mg once daily
+
+TREATMENT PLAN:
+- Monitor blood glucose levels daily
+- Follow diabetic diet (low carbohydrate, high fiber)
+- Regular exercise (30 minutes daily)
+- Weight loss goal: 10-15 pounds
+- Regular eye examinations every 6 months
+
+LIFESTYLE RECOMMENDATIONS:
+- Quit smoking (patient reports 10 cigarettes/day)
+- Reduce salt intake
+- Increase physical activity
+- Regular foot care due to diabetes
+
+FOLLOW-UP:
+- Return in 3 months for medication adjustment
+- Schedule appointment with ophthalmologist
+- Consider diabetes education classes
+
+NOTES:
+Patient shows good compliance with previous treatment recommendations. Blood pressure has improved from previous reading of 160/100 mmHg. Patient expresses concern about medication side effects, particularly gastrointestinal issues with Metformin. 

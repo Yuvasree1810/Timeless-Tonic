@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Timeless Tonic - Colorful Theme Demo</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .demo-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .demo-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    
+    .demo-header h1 {
+      font-size: 3em;
+      font-weight: 800;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 20px;
+    }
+    
+    .demo-header p {
+      font-size: 1.2em;
+      color: #4a5568;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 60px;
+    }
+    
+    .feature-card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 24px;
+      padding: 30px;
+      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 60px rgba(31, 38, 135, 0.25);
+    }
+    
+    .feature-icon {
+      font-size: 3em;
+      margin-bottom: 20px;
+      display: block;
+    }
+    
+    .feature-card h3 {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #2d3748;
+      margin-bottom: 15px;
+    }
+    
+    .feature-card p {
+      color: #4a5568;
+      line-height: 1.6;
+    }
+    
+    .color-palette {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-bottom: 60px;
+    }
+    
+    .color-card {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+    
+    .color-card:hover {
+      transform: scale(1.05);
+    }
+    
+    .color-swatch {
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      margin: 0 auto 15px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    .primary-gradient { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    .secondary-gradient { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+    .accent-gradient { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+    .success-gradient { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+    .warning-gradient { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+    
+    .cta-section {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 24px;
+      padding: 40px;
+      margin-bottom: 40px;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      padding: 16px 32px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 1.1em;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+    }
+    
+    .cta-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 20px 60px rgba(31, 38, 135, 0.25);
+    }
+  </style>
+</head>
+<body class="theme-colorful">
+  <div class="demo-container">
+    <div class="demo-header">
+      <h1>🌈 Professional Colorful Theme</h1>
+      <p>Experience the vibrant, modern design of Timeless Tonic with animated gradients, glassmorphism effects, and professional color schemes.</p>
+    </div>
+    
+    <div class="feature-grid">
+      <div class="feature-card">
+        <span class="feature-icon">🎨</span>
+        <h3>Animated Gradients</h3>
+        <p>Dynamic background gradients that shift and flow, creating a mesmerizing visual experience while maintaining professional aesthetics.</p>
+      </div>
+      
+      <div class="feature-card">
+        <span class="feature-icon">✨</span>
+        <h3>Glassmorphism Design</h3>
+        <p>Modern glass-like effects with backdrop blur, transparency, and subtle borders that create depth and sophistication.</p>
+      </div>
+      
+      <div class="feature-card">
+        <span class="feature-icon">🎭</span>
+        <h3>Multiple Themes</h3>
+        <p>Switch between Colorful, Modern, Classic, and Dark themes with smooth transitions and persistent preferences.</p>
+      </div>
+      
+      <div class="feature-card">
+        <span class="feature-icon">🚀</span>
+        <h3>Smooth Animations</h3>
+        <p>Fluid hover effects, entrance animations, and micro-interactions that enhance user experience without being distracting.</p>
+      </div>
+      
+      <div class="feature-card">
+        <span class="feature-icon">📱</span>
+        <h3>Responsive Design</h3>
+        <p>Fully responsive layout that adapts beautifully to all screen sizes, from mobile phones to large desktop displays.</p>
+      </div>
+      
+      <div class="feature-card">
+        <span class="feature-icon">🎯</span>
+        <h3>Accessibility Focused</h3>
+        <p>High contrast ratios, proper focus states, and keyboard navigation support for an inclusive user experience.</p>
+      </div>
+    </div>
+    
+    <div class="color-palette">
+      <div class="color-card">
+        <div class="color-swatch primary-gradient"></div>
+        <h4>Primary Gradient</h4>
+        <p>Main brand colors for buttons and highlights</p>
+      </div>
+      
+      <div class="color-card">
+        <div class="color-swatch secondary-gradient"></div>
+        <h4>Secondary Gradient</h4>
+        <p>Alternative accent colors for variety</p>
+      </div>
+      
+      <div class="color-card">
+        <div class="color-swatch accent-gradient"></div>
+        <h4>Accent Gradient</h4>
+        <p>Interactive elements and hover states</p>
+      </div>
+      
+      <div class="color-card">
+        <div class="color-swatch success-gradient"></div>
+        <h4>Success Gradient</h4>
+        <p>Positive actions and confirmations</p>
+      </div>
+      
+      <div class="color-card">
+        <div class="color-swatch warning-gradient"></div>
+        <h4>Warning Gradient</h4>
+        <p>Cautionary actions and alerts</p>
+      </div>
+    </div>
+    
+    <div class="cta-section">
+      <h2>Ready to Experience the Colorful Theme?</h2>
+      <p>All existing features are preserved while adding this beautiful, professional design system.</p>
+      <a href="index.html" class="cta-button">Launch Timeless Tonic</a>
+    </div>
+  </div>
+</body>
+</html> 
